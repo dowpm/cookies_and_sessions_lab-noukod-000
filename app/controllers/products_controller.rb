@@ -3,5 +3,7 @@ class ProductsController < ApplicationController
   end
 
   def add
+
+    render action: 'index'
   end
 end
